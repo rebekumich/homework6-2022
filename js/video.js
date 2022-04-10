@@ -22,7 +22,14 @@ document.querySelector("#pause").addEventListener("click", function() {
 
 document.querySelector("#slower").addEventListener("click", function(){
 	console.log("Slow Down Video");
+	
 	video.playbackRate *=0.95
+	console.log("Speed is", video.playbackRate)
+});
+
+document.querySelector("#faster").addEventListener("click", function(){
+	console.log("Speed Up Video");
+	video.playbackRate *=1.05
 	console.log("Speed is", video.playbackRate)
 });
 
