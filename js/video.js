@@ -67,10 +67,10 @@ document.querySelector("#slider").addEventListener("change", function (){
 
 //Style Function//
 document.querySelector("#vintage").addEventListener("click", function (){
-	element.classList.add("vintage")
+	video.classList.add("oldSchool")
 });
 
-document.querySelector("orig").addEventListener("click", function (){
-	element.classList.add("orig")
-	element.classList.remove("vintage")
+document.querySelector("#orig").addEventListener("click", function (){
+	video.classList.add("original")
+	video.classList.remove("oldSchool")
 });
